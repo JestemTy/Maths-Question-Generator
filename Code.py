@@ -52,7 +52,7 @@ def mathgen():
  # Create GUI Window
 root = Tk()
 root.title("Math Gen")
-frm = ttk.Frame(root, padding=10, style="SFrame")
+frm = ttk.Frame(root, padding=10)
 frm.grid()
 
 ttk.Label(frm, text="Generate a list of math questions", style="TLabel").grid(columnspan=4, row=0)
